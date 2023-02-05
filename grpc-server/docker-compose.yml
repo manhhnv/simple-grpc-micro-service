@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  eduling_ai:
+    image: eduling-ai:1.0.0
+    container_name: eduling_ai
+    build:
+      dockerfile: Dockerfile
+      context: .
+    env_file:
+      - .env
+    ports:
+      - ${PORT}:${PORT}

@@ -1,0 +1,6 @@
+autopep8==2.0.1
+pre-commit==3.0.1
+python-dotenv==0.21.1
+openai==0.26.4
+grpcio==1.51.1
+grpcio-tools==1.51.1

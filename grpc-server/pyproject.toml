@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 119
+exclude = '''
+^/(
+  (
+    | \.git
+    | \.tox
+    | \.venv
+    | __pycache__
+    | *__pb2_grpc.py
+    | *__pb2.py
+  )/
+)
+'''
+
+[tool.flake8]
+max_line_length = 119
+extend-ignore = "E203,"
+exclude = ".git,__pycache__,data,.venv,*__pb2_grpc.py,*__pb2.py"

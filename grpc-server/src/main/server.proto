@@ -1,0 +1,18 @@
+syntax = "proto3";
+import "google/protobuf/wrappers.proto";
+package proto;
+option go_package = "/proto";
+
+
+service NlpServer {
+  rpc CorrectGrammar(CorrectGrammarRequest) returns (CorrectGrammarResponse) {}
+}
+message CorrectGrammarRequest {
+  string transcript = 1;
+}
+
+message CorrectGrammarResponse {
+  string correctTranscript = 1;
+  string type = 2;
+  google.protobuf.StringValue message = 3;
+}
