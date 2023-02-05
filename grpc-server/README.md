@@ -1,7 +1,7 @@
-# Eduling Speak - AI features
+# grp-server
 
 ## Table of content
-- [Eduling Speak - AI features](#eduling-speak---ai-features)
+- [grp-server](#grp-server)
   - [Table of content](#table-of-content)
   - [Setup](#setup)
   - [Start-up](#start-up)
